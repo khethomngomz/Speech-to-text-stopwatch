@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text Stopwatch with Alarm</title>
+    <img src="assets/watch.png"></img>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Speech to Text <br>Stopwatch with Alarm</h1>
+        
+        <!-- Stopwatch Display -->
+        <div id="stopwatch">00:00:00</div>
+
+        <!-- Start/Stop Button -->
+        <button id="startStopBtn" onclick="startStop()">Start Stopwatch & Transcription</button>
+
+        <!-- Alarm Button -->
+        <button id="setAlarmBtn" onclick="startAlarmSetting()">Set Alarm</button>
+
+        <!-- Transcription Output -->
+        <div id="transcriptionText">Transcribed Text Appears Here...</div>
+
+        <!-- Alarm Set Output -->
+        <div id="alarmText">No alarm set</div>
+
+        <!-- Countdown Timer for the Alarm -->
+        <div id="countdown">Countdown: 00:00</div>
+
+        <!-- Audio Element for Alarm Sound -->
+        <audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

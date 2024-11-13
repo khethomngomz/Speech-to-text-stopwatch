@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: grey;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#stopwatch {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+#startStopBtn, #setAlarmBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#startStopBtn:hover, #setAlarmBtn:hover {
+    background-color: #45a049;
+}
+
+#transcriptionText, #alarmText {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #333;
+    white-space: pre-line;
+}
+
+#countdown {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #FF6347;  /* Tomato color for the countdown */
+}
+
+img {
+    height:200px;
+    width:auto;
+    border-radius: 50%;
+}
